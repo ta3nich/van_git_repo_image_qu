@@ -49,7 +49,7 @@ chmod +x /root/.vnc/xstartup
 touch /root/.Xresources
 
 # sudo  vncserver -localhost  -depth 24 -geometry 1360x768 :1
-sleep 8
+sleep 2
 sudo vncserver -kill :1
 
 pkill Xtightvnc
