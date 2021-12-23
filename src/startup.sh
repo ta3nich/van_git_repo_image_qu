@@ -1,5 +1,10 @@
 
 #!/bin/bash
+cd /root/SDA_ALL/
+# cd /root/SDA_ALL/48_firefox/
+git reset --hard
+git pull
+cd
 export USER="root"
 export PASSWORD="123123123"
 echo "000000000000000000000000000000000000001111111111111111111111111111111111111"
@@ -22,6 +27,9 @@ EOF
 
 
 # sudo vncserver
+
+
+#######################################################
 sudo vncserver
 sleep 8
 sudo vncserver -kill :1
@@ -40,7 +48,7 @@ chmod +x /root/.vnc/xstartup
 
 touch /root/.Xresources
 
-sudo  vncserver -localhost  -depth 24 -geometry 1360x768 :1
+# sudo  vncserver -localhost  -depth 24 -geometry 1360x768 :1
 sleep 8
 sudo vncserver -kill :1
 
@@ -63,10 +71,6 @@ systemctl daemon-reload
 systemctl start vncserver@1
 systemctl start supervisor
 # git -C root/moya/ pull
-cd /root/SDA_ALL/
-# cd /root/SDA_ALL/48_firefox/
-git reset --hard
-git pull
 
 # cd 48_firefox/
 # bash ./l1.sh &
