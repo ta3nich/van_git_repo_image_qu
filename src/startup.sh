@@ -75,6 +75,7 @@ systemctl start supervisor
 # cd 48_firefox/
 # bash ./l1.sh &
 echo "lol" > /root/go
+hostname
 ###########################################
 # /usr/bin/supervisord -n
 # 48_firefox/
