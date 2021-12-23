@@ -75,7 +75,8 @@ systemctl start supervisor
 # cd 48_firefox/
 # bash ./l1.sh &
 echo "lol" > /root/go
-hostname
+host_name = ${hostname -1}
+echo $host_name
 ###########################################
 # /usr/bin/supervisord -n
 # 48_firefox/
