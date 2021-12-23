@@ -62,7 +62,7 @@ RUN find "${STARTUPDIR}"/ -name '*.sh' -exec chmod a+x {} +
 ################## Envrionment config ##########################################
 WORKDIR $HOME
 RUN $INST_SCRIPTS/package4.sh
-
+RUN rm /etc/supervisor/conf.d/my_start.conf
 #######################  SSH ###########################################
 
 ###########################################################################
