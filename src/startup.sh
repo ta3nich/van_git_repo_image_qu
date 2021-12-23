@@ -79,7 +79,7 @@ hostname
 hh_n=`hostname`
 
 # host_name = ${hh_n: -1}
-host_name=$(echo $hh_n |tail -c 1)
+host_name=`echo -n $HOSTNAME |tail -c 1`
 echo $host_name
 
 ###########################################
