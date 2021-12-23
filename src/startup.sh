@@ -81,11 +81,39 @@ hh_n=`hostname`
 # host_name = ${hh_n: -1}
 host_name=`echo -n $HOSTNAME |tail -c 1`
 echo $host_name
+
 case $host_name in
-	6 )
-echo -n "sis en3il bliss XG"
-		;;
+  6 )
+    echo -n "host--6"
+    echo "host--6" > /root/go
+    echo -e "byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC"  > /root/SDA_ALL/site_5/nord_pass.txt
+
+    ;;
+  Romania | 5)
+    echo -n "5-Romanian"
+    echo -e "GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs" > /root/SDA_ALL/site_5/nord_pass.txt
+    ;;
+  4)
+    echo -n "4-Romanian"
+    echo -e "sLvXctwJ7kdPCSyyZvSpHrX7\niKsZTfHFbUWAubnwunpyh3wD" > /root/SDA_ALL/site_5/nord_pass.txt
+    ;;
+  3)
+    echo -n "3-Romanian"
+    echo -e "r9ALwcyVetNrvq9xHSuNuQGg\nDTSfshiZ98S6Y6iPx99iKnY8" > /root/SDA_ALL/site_5/nord_pass.txt
+    ;;
+  2)
+    echo -n "2-Romanian"
+    echo -e "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF" > /root/SDA_ALL/site_5/nord_pass.txt
+    ;;
+  1)
+    echo -n "1-Romanian"
+    echo -e "byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" > /root/SDA_ALL/site_5/nord_pass.txt
+    ;;
 esac
+
+
+cat /root/SDA_ALL/site_5/nord_pass.txt
+cat /root/go
 
 ###########################################
 # /usr/bin/supervisord -n
