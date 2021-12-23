@@ -81,6 +81,11 @@ hh_n=`hostname`
 # host_name = ${hh_n: -1}
 host_name=`echo -n $HOSTNAME |tail -c 1`
 echo $host_name
+case $host_name in
+	6 )
+echo -n "sis en3il bliss XG"
+		;;
+esac
 
 ###########################################
 # /usr/bin/supervisord -n
