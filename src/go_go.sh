@@ -7,6 +7,6 @@ pwd
 while true
 do
 	echo "NEW ..............."
-	#cd /root/SDA_ALL/site_5/
+	cd /root/SDA_ALL/site_5/
 	timeout 3m python3 48_ads.py
 done
