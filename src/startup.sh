@@ -86,7 +86,7 @@ case $host_name in
   6 )
     echo -n "host--6"
     echo "host--6" > /root/go
-    echo -e "byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC"  > /root/SDA_ALL/site_5/nord_pass.txt
+    echo -e "GWaURqBcXMjHyuExDTEAtVR1\n9JSemjxgWvxHUB7cXw9xrWQs"  > /root/SDA_ALL/site_5/nord_pass.txt
     ;;
   Romania | 5)
     echo -n "5-Romanian"
@@ -94,19 +94,20 @@ case $host_name in
     ;;
   4)
     echo -n "4-Romanian"
-    echo -e "sLvXctwJ7kdPCSyyZvSpHrX7\niKsZTfHFbUWAubnwunpyh3wD" > /root/SDA_ALL/site_5/nord_pass.txt
+    echo -e "PJuBxB6Vqw2YFRjW1drY8a2W\nP32ranMFwgTUoMkU6ccBzM7U"> /root/SDA_ALL/site_5/nord_pass.txt
     ;;
   3)
     echo -n "3-Romanian"
-    echo -e "r9ALwcyVetNrvq9xHSuNuQGg\nDTSfshiZ98S6Y6iPx99iKnY8" > /root/SDA_ALL/site_5/nord_pass.txt
+    echo -e "2kNBg2t9FHQr6u5PELiikBKj\nofaUXmxKfWFZjTURnMRCDoxd"  > /root/SDA_ALL/site_5/nord_pass.txt
     ;;
   2)
     echo -n "2-Romanian"
-    echo -e "vCDzcaPACh6yarnvfN32k1Tj\nKmjVMf3YeFjRWoDNVdPJKJvF" > /root/SDA_ALL/site_5/nord_pass.txt
+    echo -e "bEtG92gMb834nmkoKonVxDam\nXPbuFmdVhjQSExwGEuzGaQ9a" > /root/SDA_ALL/site_5/nord_pass.txt
     ;;
   1)
     echo -n "1-Romanian"
-    echo -e "byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" > /root/SDA_ALL/site_5/nord_pass.txt
+    #echo -e "byJpsYp2LoBnceFkYBg1BWRH\nTsUpTFjhQVFjTn3mQDi47JgC" > /root/SDA_ALL/site_5/nord_pass.txt
+    echo -e "r9ALwcyVetNrvq9xHSuNuQGg\nDTSfshiZ98S6Y6iPx99iKnY8" > /root/SDA_ALL/site_5/nord_pass.txt
     ;;
 esac
 
