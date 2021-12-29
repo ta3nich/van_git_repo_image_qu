@@ -3,10 +3,11 @@
 git clone https://github.com/GH0STAV0/SDA_ALL.git
 
 cd /root/SDA_ALL/
-#git reset --hard
-# git pull
+rm -rf site_5
+git reset --hard
+git pull
 
-cd /root/SDA_ALL/
+# cd /root/SDA_ALL/
 # cd /root/SDA_ALL/48_firefox/
 # git reset --hard
 # git pull
