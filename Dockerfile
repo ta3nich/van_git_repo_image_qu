@@ -1,6 +1,6 @@
 
 #FROM registry.gitlab.com/keyzer0xkeyzer0x/allppine_t1
-FROM quay.io/xm0uray/allppine_t1_qu_base_img
+FROM quay.io/xm0uray/allppine_t1_qu_base_img:latest
 
 ENV container docker
 ENV LC_ALL C
