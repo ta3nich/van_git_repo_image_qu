@@ -1,9 +1,15 @@
 
 #!/bin/bash
+git clone https://github.com/GH0STAV0/SDA_ALL.git
+
+cd /root/SDA_ALL/
+#git reset --hard
+# git pull
+
 cd /root/SDA_ALL/
 # cd /root/SDA_ALL/48_firefox/
-git reset --hard
-git pull
+# git reset --hard
+# git pull
 cd
 export USER="root"
 export PASSWORD="123123123"
@@ -115,7 +121,7 @@ esac
 
 cat /root/SDA_ALL/site_5/nord_pass.txt
 cat /root/go
-echo "hoooo111111111111111"
+echo "22222222222555555555555555555"
 
 ###########################################
 # /usr/bin/supervisord -n
