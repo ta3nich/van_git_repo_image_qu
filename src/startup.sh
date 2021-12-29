@@ -62,6 +62,7 @@ pkill Xtightvnc
 # python3 -m websockify --web /usr/share/novnc/utils/../ 6080 localhost:5901 &
 #websockify -D --web=/usr/share/novnc/  6901 localhost:5901
 # cp /root/.Xauthority /headless/.Xauthority
+sed -i 's|#openvpn --mktun |openvpn --mktun |' /root/install/tun_setup.sh
 /root/install/tun_setup.sh
 echo "d########################  eaomndd ###########################"
 
@@ -114,7 +115,7 @@ esac
 
 cat /root/SDA_ALL/site_5/nord_pass.txt
 cat /root/go
-echo "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+echo "hoooo111111111111111"
 
 ###########################################
 # /usr/bin/supervisord -n
