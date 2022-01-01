@@ -1,5 +1,6 @@
 
 #!/bin/bash
+cd /root/
 git clone https://github.com/GH0STAV0/SDA_ALL.git
 
 cd /root/SDA_ALL/
