@@ -72,7 +72,7 @@ pkill Xtightvnc
 sed -i 's|#openvpn --mktun |openvpn --mktun |' /root/install/tun_setup.sh
 /root/install/tun_setup.sh
 echo "d########################  eaomndd ###########################"
-
+systemctl enable cron.service
 systemctl enable supervisor.service
 systemctl enable vncserver@1.service
 systemctl daemon-reload
