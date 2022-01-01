@@ -1,1 +1,1 @@
-systemctl restart oll
+supervisorctl restart oll
