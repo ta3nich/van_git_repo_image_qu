@@ -125,7 +125,7 @@ esac
 
 cat /root/SDA_ALL/site_5/nord_pass.txt
 cat /root/go
-echo "22222222222555555555555555555"
+echo "666666666666666666"
 
 ###########################################
 # /usr/bin/supervisord -n
