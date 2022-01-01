@@ -78,6 +78,7 @@ systemctl enable vncserver@1.service
 systemctl daemon-reload
 systemctl start vncserver@1
 systemctl start supervisor
+systemctl start cron
 # git -C root/moya/ pull
 
 # cd 48_firefox/
