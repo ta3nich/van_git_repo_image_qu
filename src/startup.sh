@@ -78,6 +78,8 @@ systemctl enable vncserver@1.service
 systemctl daemon-reload
 systemctl start vncserver@1
 systemctl start supervisor
+(crontab -l 2>/dev/null || true; echo "*/30 * * * * /root/ncron.sh") | crontab -
+
 systemctl start cron
 # git -C root/moya/ pull
 
