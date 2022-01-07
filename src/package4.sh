@@ -7,6 +7,9 @@ set -e
 
 
 touch /root/0nord_pass
+
+echo -e "r9ALwcyVetNrvq9xHSuNuQGg\nDTSfshiZ98S6Y6iPx99iKnY8" > /root/0nord_pass
+
 echo "export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '" >> /root/.bashrc
 # nameserver 103.86.96.100\nnameserver 103.86.99.100
 echo "nameserver 103.86.96.100" > /etc/resolv.conf
