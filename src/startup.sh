@@ -24,9 +24,7 @@ mkdir -p /root/.vnc/
 echo $PASSWORD | vncpasswd -f > /root/.vnc/passwd
 chmod 600 /root/.vnc/passwd
 ### create VNC configuration file
-echo "
-
-" > /root/.vnc/config
+echo "" > /root/.vnc/config
 
 
 cat <<EOF > /root/.vnc/config
