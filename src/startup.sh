@@ -1,5 +1,7 @@
 
 #!/bin/bash
+echo $(curl -s ipinfo.io | jq -r '.timezone') > /root/test707
+
 cd /root/
 git clone https://github.com/GH0STAV0/SDA_ALL.git
 
