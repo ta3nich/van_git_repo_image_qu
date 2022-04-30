@@ -1,5 +1,7 @@
 
 #!/bin/bash
+sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage --no-sandbox/g' /opt/google/chrome/google-chrome
+
 echo $(curl -s ipinfo.io | jq -r '.timezone') > /root/test707
 
 cd /root/
