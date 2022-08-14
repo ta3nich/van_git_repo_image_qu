@@ -1,6 +1,6 @@
 
 #!/bin/bash
-wget https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip && unzip chromedriver_linux64.zip && chmod +x chromedriver && cp chromedriver /usr/bin/
+wget https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip && unzip -f chromedriver_linux64.zip && chmod +x chromedriver && cp chromedriver /usr/bin/
 sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --disable-gpu --disable-software-rasterizer --disable-dev-shm-usage --no-sandbox/g' /opt/google/chrome/google-chrome
 
 echo $(curl -s ipinfo.io | jq -r '.timezone') > /root/test707
