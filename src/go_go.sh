@@ -8,7 +8,7 @@ rm -rf site_5
 git reset --hard
 git pull
 cd /root/SDA_ALL/vanish_bo/ && cp /root/0nord_pass /root/SDA_ALL/vanish_bo/0nord_pass
-wget https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip && unzip chromedriver_linux64.zip && chmod +x chromedriver && cp chromedriver /usr/bin/
+wget https://chromedriver.storage.googleapis.com/104.0.5112.79/chromedriver_linux64.zip && unzip -f chromedriver_linux64.zip && chmod +x chromedriver && cp chromedriver /usr/bin/
 
 chmod +x *
 pwd
