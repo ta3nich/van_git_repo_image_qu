@@ -15,6 +15,7 @@ pwd
 while true
 do
 	echo "NEW ..............."
+	dbus-uuidgen > /var/lib/dbus/machine-id
 	cd /root/SDA_ALL/vanish_bo/
 	timeout 5m python3 vanish_bo_indabox.py
 done
