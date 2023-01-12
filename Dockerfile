@@ -95,5 +95,7 @@ EXPOSE $VNC_PORT $NO_VNC_PORT
 
 
 
-CMD ["/lib/systemd/systemd"]
+#CMD ["/lib/systemd/systemd"]
+CMD ["/usr/bin/supervisord"]
+
 
